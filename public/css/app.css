@@ -1,3 +1,7 @@
+html {
+	background: hsl(53, 68%, 22%);
+}
+
 .container {
 	width: 90%;
 	margin: 0 auto;
@@ -13,11 +17,11 @@ h1 {
 
 h1 span:first-child {
 	background-color: hsl(60,80%,60%);
-	border: 3px solid #a0a0a0;
-	border-radius: 2px;
+	border-radius: 4px;
 	color: #0c0c0c;
 	vertical-align: middle;
 	padding: 0 20px;	
+	box-shadow: 0 0 80px hsla(60,80%,60%,0.6);
 }
 
 h1 span:last-child {
@@ -25,10 +29,10 @@ h1 span:last-child {
 	font-size: 1.6em;
 	vertical-align: middle;
 	background-color: hsla(60,0%,20%,0.7);
+	border-radius: 8px;
 	color: hsl(60,80%,60%);
 	transform: rotate(4deg);
-	-webkit-transform: rotate(12deg) translate(-15px, 10px);
-	text-shadow: 2px 2px #000;
+	-webkit-transform: rotate(12deg) translate(-5px, 10px);
 	padding: 0 20px;
 	text-align: center;
 }
