@@ -1,5 +1,6 @@
 html {
-	background: hsl(53, 68%, 22%);
+	background: hsl(53, 68%, 30%)
+				url('../img/splatter.png') no-repeat 80px 40px;
 }
 
 .container {
