@@ -1,3 +1,34 @@
+.container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+}
+
 h1 {
+	font-family: 'Bowlby One';
 	font-size: 4em;
+	transform: rotate(-6deg);
+	-webkit-transform: rotate(-6deg);
+}
+
+h1 span:first-child {
+	background-color: hsl(60,80%,60%);
+	border: 3px solid #a0a0a0;
+	border-radius: 2px;
+	color: #0c0c0c;
+	vertical-align: middle;
+	padding: 0 20px;	
+}
+
+h1 span:last-child {
+	display: inline-block;
+	font-size: 1.6em;
+	vertical-align: middle;
+	background-color: hsla(60,0%,20%,0.7);
+	color: hsl(60,80%,60%);
+	transform: rotate(4deg);
+	-webkit-transform: rotate(12deg) translate(-15px, 10px);
+	text-shadow: 2px 2px #000;
+	padding: 0 20px;
+	text-align: center;
 }
