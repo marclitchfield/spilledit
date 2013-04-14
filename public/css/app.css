@@ -1,7 +1,8 @@
 html {
-	background: url('../img/splatter.png') no-repeat 50px 20px,
+	background: url('../img/splatter.png') no-repeat,
 				url('../img/splatterblur.png') repeat;
-	background-color: hsla(127, 71%, 46%, 0.9);
+	background-position: 50px 20px, 20% 20%;
+	background-color: hsla(127, 71%, 46%, 0.9);	
 }
 
 @media screen and (max-width: 550px) {
