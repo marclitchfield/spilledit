@@ -1,7 +1,13 @@
 html {
-	background: hsl(53, 68%, 30%)
-				url('../img/splatter.png') no-repeat 80px 40px;
-	background-size: cover;
+	background: url('../img/splatter.png') no-repeat 50px 20px,
+				url('../img/splatterblur.png') repeat;
+	background-color: hsla(127, 71%, 46%, 0.9);
+}
+
+@media screen and (max-width: 550px) {
+	html {
+		background-size: cover;
+	}
 }
 
 .container {
