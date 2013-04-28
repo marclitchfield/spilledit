@@ -45,3 +45,29 @@ h1 span:last-child {
 	padding: 0 20px;
 	text-align: center;
 }
+
+.pic {
+	height: 125px;
+	width: 150px;
+	background-size: cover;
+	display: inline-block;
+	border: 3px solid #000;
+	box-shadow: 0 0 80px hsla(800,80%,60%,0.6); 
+}
+
+.spill1 {
+	background-image: url(../img/spilledtoys.jpg);
+}
+
+.spill2 {
+	background-image: url(../img/spilledraisins.jpg);
+}
+
+.spill3 {
+	background-image: url(../img/spilledmilk.jpg);
+}
+
+.spillpics {
+	margin-left: 100px;
+	width: 800px;
+}
