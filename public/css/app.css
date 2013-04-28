@@ -48,9 +48,10 @@ h1 span:last-child {
 
 
 .spillpics {
-	margin-left: 100px;
+	margin: 0 auto;
 	width: 60%;
 	min-width: 200px;
+	min-height: 300px;
 	-webkit-perspective: 1600;
 	-webkit-perspective-origin: 50% -10px;
 }
