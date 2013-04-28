@@ -49,9 +49,10 @@ h1 span:last-child {
 
 .spillpics {
 	margin-left: 100px;
-	width: 800px;
+	width: 60%;
+	min-width: 200px;
 	-webkit-perspective: 1600;
-	-webkit-perspective-origin: 50% 50px;
+	-webkit-perspective-origin: 50% -10px;
 }
 
 
@@ -68,8 +69,8 @@ h1 span:last-child {
 
 .pic {
 	position: absolute;
-	top: 120px;
-	left: 350px;
+	top: 60px;
+	left: 30%;
 	width: 220px;
 	height: 124px;
 	background-size: cover;
