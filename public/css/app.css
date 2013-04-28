@@ -46,28 +46,85 @@ h1 span:last-child {
 	text-align: center;
 }
 
-.pic {
-	height: 125px;
-	width: 150px;
-	background-size: cover;
-	display: inline-block;
-	border: 3px solid #000;
-	box-shadow: 0 0 80px hsla(800,80%,60%,0.6); 
-}
-
-.spill1 {
-	background-image: url(../img/spilledtoys.jpg);
-}
-
-.spill2 {
-	background-image: url(../img/spilledraisins.jpg);
-}
-
-.spill3 {
-	background-image: url(../img/spilledmilk.jpg);
-}
 
 .spillpics {
 	margin-left: 100px;
 	width: 800px;
+	-webkit-perspective: 1600;
+	-webkit-perspective-origin: 50% 50px;
 }
+
+
+@-webkit-keyframes spin {
+	from { -webkit-transform: rotateY(360deg); }
+	to   { -webkit-transform: rotateY(0deg); }
+}
+
+.spinplane {
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: visible;
+	-webkit-animation: spin 36s infinite linear;
+}
+
+.pic {
+	position: absolute;
+	top: 120px;
+	left: 350px;
+	width: 220px;
+	height: 124px;
+	background-size: cover;
+	display: inline-block;
+	border: 3px solid #000;
+	border-radius: 2px;
+}
+
+.spill1 {
+	-webkit-transform: rotateY(0deg) translateZ(418px);
+	background-image: url(../img/spilledtoys.jpg);
+}
+.spill2 {
+	-webkit-transform: rotateY(30deg) translateZ(418px);
+	background-image: url(../img/spilledraisins.jpg);
+}
+.spill3 {
+	-webkit-transform: rotateY(60deg) translateZ(418px);
+	background-image: url(../img/spilledmilk.jpg);
+}
+.spill4 {
+	-webkit-transform: rotateY(90deg) translateZ(418px);
+	background-image: url(../img/spilledtoys.jpg);
+}
+.spill5 {
+	-webkit-transform: rotateY(120deg) translateZ(418px);
+	background-image: url(../img/spilledraisins.jpg);
+}
+.spill6 {
+	-webkit-transform: rotateY(150deg) translateZ(418px);
+	background-image: url(../img/spilledmilk.jpg);
+}
+.spill7 {
+	-webkit-transform: rotateY(180deg) translateZ(418px);
+	background-image: url(../img/spilledtoys.jpg);
+}
+.spill8 {
+	-webkit-transform: rotateY(210deg) translateZ(418px);
+	background-image: url(../img/spilledraisins.jpg);
+}
+.spill9 {
+	-webkit-transform: rotateY(240deg) translateZ(418px);
+	background-image: url(../img/spilledmilk.jpg);
+}
+.spill10 {
+	-webkit-transform: rotateY(270deg) translateZ(418px);
+	background-image: url(../img/spilledtoys.jpg);
+}
+.spill11 {
+	-webkit-transform: rotateY(300deg) translateZ(418px);
+	background-image: url(../img/spilledraisins.jpg);
+}
+.spill12 {
+	-webkit-transform: rotateY(330deg) translateZ(418px);
+	background-image: url(../img/spilledmilk.jpg);
+}
+
+
