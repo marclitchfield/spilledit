@@ -48,52 +48,13 @@ h1 span:last-child {
 
 
 .spillpics {
-	position: relative;
-	margin: 0 auto;
-	width: 600px;
-	min-width: 200px;
-	min-height: 300px;
-	perspective: 1600;
-	-webkit-perspective: 1600;
-	perspective-origin: 50% -30px;
-	-webkit-perspective-origin: 50% -30px;
-}
-
-
-@-webkit-keyframes spin {
-	from { 
-		transform: rotateY(360deg); 
-		-o-transform: rotateY(360deg); 
-		-ms-transform: rotateY(360deg); 
-		-moz-transform: rotateY(360deg); 
-		-webkit-transform: rotateY(360deg); 
-	}
-	to   { 
-		transform: rotateY(0deg); 
-		-o-transform: rotateY(0deg); 
-		-ms-transform: rotateY(0deg); 
-		-moz-transform: rotateY(0deg); 
-		-webkit-transform: rotateY(0deg); 
-	}
-}
-
-.spinplane {
-	height:1000px;
-	transform-style: preserve-3d;
-	-webkit-transform-style: preserve-3d;
-	backface-visibility: visible;
-	-webkit-backface-visibility: visible;
-	animation: spin 36s infinite linear;
-	-o-animation: spin 36s infinite linear;
-	-ms-animation: spin 36s infinite linear;
-	-moz-animation: spin 36s infinite linear;
-	-webkit-animation: spin 36s infinite linear;
+	margin-top: 75px;
+	margin-left: 200px;
+	width: 800px;
+	
 }
 
 .pic {
-	position: absolute;
-	top: 60px;
-	left: 186px;
 	width: 220px;
 	height: 124px;
 	background-size: cover;
@@ -103,112 +64,14 @@ h1 span:last-child {
 }
 
 .spill1 {
-	transform: rotateY(0deg) translateZ(418px);
-	-o-transform: rotateY(0deg) translateZ(418px);
-	-ms-transform: rotateY(0deg) translateZ(418px);
-	-moz-transform: rotateY(0deg) translateZ(418px);
-	-webkit-transform: rotateY(0deg) translateZ(418px);
 	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
 		url(../img/spilledtoys.jpg);
 }
 .spill2 {
-	transform: rotateY(30deg) translateZ(418px);
-	-o-transform: rotateY(30deg) translateZ(418px);
-	-ms-transform: rotateY(30deg) translateZ(418px);
-	-moz-transform: rotateY(30deg) translateZ(418px);
-	-webkit-transform: rotateY(30deg) translateZ(418px);
 	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
 		url(../img/spilledraisins.jpg);
 }
 .spill3 {
-	transform: rotateY(60deg) translateZ(418px);
-	-o-transform: rotateY(60deg) translateZ(418px);
-	-ms-transform: rotateY(60deg) translateZ(418px);
-	-moz-transform: rotateY(60deg) translateZ(418px);
-	-webkit-transform: rotateY(60deg) translateZ(418px);
 	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
 		url(../img/spilledmilk.jpg);
 }
-.spill4 {
-	transform: rotateY(90deg) translateZ(418px);
-	-o-transform: rotateY(90deg) translateZ(418px);
-	-ms-transform: rotateY(90deg) translateZ(418px);
-	-moz-transform: rotateY(90deg) translateZ(418px);
-	-webkit-transform: rotateY(90deg) translateZ(418px);
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
-		url(../img/spilledtoys.jpg);
-}
-.spill5 {
-	transform: rotateY(120deg) translateZ(418px);
-	-o-transform: rotateY(120deg) translateZ(418px);
-	-ms-transform: rotateY(120deg) translateZ(418px);
-	-moz-transform: rotateY(120deg) translateZ(418px);
-	-webkit-transform: rotateY(120deg) translateZ(418px);
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
-		url(../img/spilledraisins.jpg);
-}
-.spill6 {
-	transform: rotateY(150deg) translateZ(418px);
-	-o-transform: rotateY(150deg) translateZ(418px);
-	-ms-transform: rotateY(150deg) translateZ(418px);
-	-moz-transform: rotateY(150deg) translateZ(418px);
-	-webkit-transform: rotateY(150deg) translateZ(418px);
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
-		url(../img/spilledmilk.jpg);
-}
-.spill7 {
-	transform: rotateY(180deg) translateZ(418px);
-	-o-transform: rotateY(180deg) translateZ(418px);
-	-ms-transform: rotateY(180deg) translateZ(418px);
-	-moz-transform: rotateY(180deg) translateZ(418px);
-	-webkit-transform: rotateY(180deg) translateZ(418px);
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
-		url(../img/spilledtoys.jpg);
-}
-.spill8 {
-	transform: rotateY(210deg) translateZ(418px);
-	-o-transform: rotateY(210deg) translateZ(418px);
-	-ms-transform: rotateY(210deg) translateZ(418px);
-	-moz-transform: rotateY(210deg) translateZ(418px);
-	-webkit-transform: rotateY(210deg) translateZ(418px);
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
-		url(../img/spilledraisins.jpg);
-}
-.spill9 {
-	transform: rotateY(240deg) translateZ(418px);
-	-o-transform: rotateY(240deg) translateZ(418px);
-	-ms-transform: rotateY(240deg) translateZ(418px);
-	-moz-transform: rotateY(240deg) translateZ(418px);
-	-webkit-transform: rotateY(240deg) translateZ(418px);
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
-		url(../img/spilledmilk.jpg);
-}
-.spill10 {
-	transform: rotateY(270deg) translateZ(418px);
-	-o-transform: rotateY(270deg) translateZ(418px);
-	-ms-transform: rotateY(270deg) translateZ(418px);
-	-moz-transform: rotateY(270deg) translateZ(418px);
-	-webkit-transform: rotateY(270deg) translateZ(418px);
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
-		url(../img/spilledtoys.jpg);
-}
-.spill11 {
-	transform: rotateY(300deg) translateZ(418px);
-	-o-transform: rotateY(300deg) translateZ(418px);
-	-ms-transform: rotateY(300deg) translateZ(418px);
-	-moz-transform: rotateY(300deg) translateZ(418px);
-	-webkit-transform: rotateY(300deg) translateZ(418px);
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
-		url(../img/spilledraisins.jpg);
-}
-.spill12 {
-	transform: rotateY(330deg) translateZ(418px);
-	-o-transform: rotateY(330deg) translateZ(418px);
-	-ms-transform: rotateY(330deg) translateZ(418px);
-	-moz-transform: rotateY(330deg) translateZ(418px);
-	-webkit-transform: rotateY(330deg) translateZ(418px);
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
-		url(../img/spilledmilk.jpg);
-}
-
-
