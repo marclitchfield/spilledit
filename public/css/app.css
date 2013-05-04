@@ -20,6 +20,7 @@ html {
 h1 {
 	font-family: 'Bowlby One';
 	font-size: 4em;
+	width: 600px;
 	transform: rotate(-6deg);
 	-webkit-transform: rotate(-6deg);
 }
@@ -49,24 +50,27 @@ h1 span:last-child {
 h2 {
 	font-family: 'Rock Salt';
 	font-size: 1.6em;
-	margin-top: 50px;
-	margin-left: 20px;
+	margin-top: 20px;
+	margin-left: 40px;
 	color: hsl(60,80%,60%);
 	letter-spacing: 4px;
 	text-shadow: 3px 3px #0c0c0c;
 	font-weight: 50;
+	width: 80%;
+	text-align: center;
+	background: rgba(0,0,0,0.7);
+	padding: 8px;
+	border-radius: 8px;
 }
 
 .spillpics {
 	margin-top: 75px;
-	margin-left: 200px;
-	width: 800px;
-	
+	width: 100%;
 }
 
 .pic {
-	width: 220px;
-	height: 124px;
+	width: 30%;
+	height: 220px;
 	background-size: cover;
 	display: inline-block;
 	border: 3px solid #070707;
