@@ -50,17 +50,18 @@ h1 span:last-child {
 h2 {
 	font-family: 'Rock Salt';
 	font-size: 1.6em;
-	margin-top: 20px;
-	margin-left: 40px;
+	margin-top: 0px;
+	margin-left: 20px;
 	color: hsl(60,80%,60%);
 	letter-spacing: 4px;
 	text-shadow: 3px 3px #0c0c0c;
 	font-weight: 50;
-	width: 80%;
+	width: 40%;
 	text-align: center;
 	background: rgba(0,0,0,0.7);
 	padding: 8px;
 	border-radius: 8px;
+	display: inline-block;
 }
 
 .spillpics {
@@ -89,3 +90,4 @@ h2 {
 	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
 		url(../img/spilledmilk.jpg);
 }
+
