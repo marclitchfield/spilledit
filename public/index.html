@@ -9,22 +9,27 @@
         <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/boilerplate.css">
+        <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/app.css">
     </head>
     <body>
         <div class="container">
-            <h1>
-                <span>SPILLED</span><span>IT!</span>
-            </h1>
-            <h2>
-                Share and categorize your spills!
-            </h2>
-            <ul class="nav">    
-                <li><a href="#"> Add Spill</a></li>
-                <li><a href="#">See Spills</a></li>
-                <li><a href="#">What is this?</a></li>
-            </ul>
-            <div class="spillpics"> 
+            <div class="row">
+                <h1 class="col logo">
+                    <span>SPILLED</span><span>IT!</span>
+                </h1>
+                <ul class="col nav">    
+                    <li><a href="#"> Add Spill</a></li>
+                    <li><a href="#">See Spills</a></li>
+                    <li><a href="#">What is this?</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <h2 class="col">
+                    Share and categorize your spills!
+                </h2>
+            </div>
+            <div class="spillpics row"> 
                 <div class="pic spill1"> </div> 
                 <div class="pic spill2"> </div>
                 <div class="pic spill3"> </div>            

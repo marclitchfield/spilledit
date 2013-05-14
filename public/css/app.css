@@ -11,18 +11,24 @@ html {
 	}
 }
 
+@media only screen and (min-width: 30em) {
+    .logo { width: 50%; }
+    .nav { width: 50%; }
+}
+
 .container {
 	width: 90%;
 	margin: 0 auto;
 	padding: 0;
 }
 
-h1 {
+h1.logo {
 	font-family: 'Bowlby One';
 	font-size: 4em;
-	width: 600px;
 	transform: rotate(-6deg);
 	-webkit-transform: rotate(-6deg);
+	white-space: nowrap;
+	padding: 0px;
 }
 
 
@@ -37,7 +43,7 @@ h1 span:first-child {
 
 h1 span:last-child {
 	display: inline-block;
-	font-size: 1.6em;
+	font-size: 1.3em;
 	vertical-align: middle;
 	background-color: hsla(60,0%,20%,0.7);
 	border-radius: 8px;
@@ -57,7 +63,7 @@ h2 {
 	letter-spacing: 4px;
 	text-shadow: 3px 3px #0c0c0c;
 	font-weight: 50;
-	text-align: center;
+	text-align: left;
 	padding: 8px;
 	display: inline-block;
 	
@@ -79,7 +85,7 @@ h2 {
 
 .nav {
 	list-style: none;
-
+	display: inline-block;
 }
 
 .nav a {
@@ -88,10 +94,14 @@ h2 {
 	width: 100px;
 	height: 20px;
 	border: 5px #000;
-	background: #000;
-	box-shadow: 5px 5px #000;
+	background: hsla(60,0%,20%,0.7);
+	box-shadow: 3px 3px hsla(40,0%,5%,0.2);
 	display: block;
 	text-align: center;
+	padding: 5px;
+	float: left;
+	border-radius: 4px;
+	margin: 5px;
 }
 
 .spill1 {
