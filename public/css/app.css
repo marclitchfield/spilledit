@@ -54,20 +54,6 @@ h1 span:last-child {
 	text-align: center;
 }
 
-h2 {
-	font-family: 'Rock Salt';
-	font-size: 1.6em;
-	margin-top: 0px;
-	margin-left: 20px;
-	color: hsl(60,80%,60%);
-	letter-spacing: 4px;
-	text-shadow: 3px 3px #0c0c0c;
-	font-weight: 50;
-	text-align: left;
-	padding: 8px;
-	display: inline-block;
-	
-}
 
 .spillpics {
 	margin-top: 75px;
