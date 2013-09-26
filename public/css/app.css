@@ -31,7 +31,6 @@ html {
 	background: url('../img/splatter.png') no-repeat,
 				url('../img/splatterblur.png') repeat;
 	background-position: 50px 20px, 20% 20%;
-	background-color: hsl(250, 84%, 55%);	
 }
 
 @media screen and (max-width: 550px) {
