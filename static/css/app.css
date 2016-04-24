@@ -50,7 +50,7 @@ html {
 	padding: 0;
 }
 
-h1.logo {
+.logo {
 	font-family: 'Bowlby One';
 	font-size: 4em;
 	transform: rotate(-6deg);
@@ -60,22 +60,22 @@ h1.logo {
 }
 
 
-h1 span:first-child {
-	background-color: hsl(60,80%,60%);
+.logo span:first-child {
+	background-color: hsl(60,0%,20%);
 	border-radius: 4px;
-	color: #0c0c0c;
+	color: #fff;
 	vertical-align: middle;
 	padding: 0 20px;
-	box-shadow: 0 0 80px hsla(60,80%,60%,0.6);
+	box-shadow: 0 0 80px #ddd;
 }
 
-h1 span:last-child {
+.logo span:last-child {
 	display: inline-block;
 	font-size: 1.3em;
 	vertical-align: middle;
 	background-color: hsla(60,0%,20%,0.7);
 	border-radius: 8px;
-	color: hsl(60,80%,60%);
+	color: #ccc;
 	transform: rotate(12deg) translate(-5px, 10px);
 	-webkit-transform: rotate(12deg) translate(-5px, 10px);
 	padding: 0 20px;
