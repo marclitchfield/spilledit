@@ -1,40 +1,11 @@
-/* Dead Simple Grid (c) 2012 Vladimir Agafonkin */
-
-.col {
-	padding: 0 1.5em;
-}
-.row .row {
-	margin: 0 -1.5em;
-}
-
-.row:before, .row:after {
-	content: "";
-	display: table;
-}
-.row:after {
-	clear: both;
-}
-
-@media only screen {
-	.col {
-		float: left;
-		width: 100%;
-
-		-webkit-box-sizing: border-box;
-		   -moz-box-sizing: border-box;
-		        box-sizing: border-box;
-	}
-}
-
-
-html {
+body {
 	background: url('/static/img/splatter.png') no-repeat,
 				url('/static/img/splatterblur.png') repeat;
 	background-position: 50px 20px, 20% 20%;
 }
 
 @media screen and (max-width: 550px) {
-	html {
+	body {
 		background-size: cover;
 	}
 }
@@ -44,24 +15,17 @@ html {
     .nav { width: 50%; }
 }
 
-.container {
-	width: 90%;
-	margin: 0 auto;
-	padding: 0;
-}
-
 .logo {
 	font-family: 'Bowlby One';
 	font-size: 4em;
-	transform: rotate(-6deg);
-	-webkit-transform: rotate(-6deg);
+	transform: translate(.2em, .5em) rotate(-6deg);
 	white-space: nowrap;
 	padding: 0px;
 }
 
 
 .logo span:first-child {
-	background-color: hsl(60,0%,20%);
+	background-color: hsl(60,0%,15%);
 	border-radius: 4px;
 	color: #fff;
 	vertical-align: middle;
@@ -71,62 +35,12 @@ html {
 
 .logo span:last-child {
 	display: inline-block;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	vertical-align: middle;
 	background-color: hsla(60,0%,20%,0.7);
 	border-radius: 8px;
 	color: #ccc;
-	transform: rotate(12deg) translate(-5px, 10px);
-	-webkit-transform: rotate(12deg) translate(-5px, 10px);
-	padding: 0 20px;
+	transform: rotate(12deg) translate(-5px, 15px);
+	padding: 0 30px;
 	text-align: center;
-}
-
-
-.spillpics {
-	margin-top: 75px;
-	width: 100%;
-}
-
-.pic {
-	width: 30%;
-	height: 220px;
-	background-size: cover;
-	display: inline-block;
-	border: 3px solid #070707;
-	border-radius: 2px;
-}
-
-.nav {
-	list-style: none;
-	display: inline-block;
-}
-
-.nav a {
-	color: hsl(60,80%,60%);
-	text-decoration: none;
-	width: 100px;
-	height: 20px;
-	border: 5px #000;
-	background: hsla(60,0%,20%,0.7);
-	box-shadow: 3px 3px hsla(40,0%,5%,0.2);
-	display: block;
-	text-align: center;
-	padding: 5px;
-	float: left;
-	border-radius: 4px;
-	margin: 5px;
-}
-
-.spill1 {
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)),
-		url(/static/img/spilledtoys.jpg);
-}
-.spill2 {
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)),
-		url(/static/img/spilledraisins.jpg);
-}
-.spill3 {
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)),
-		url(/static/img/spilledmilk.jpg);
 }
