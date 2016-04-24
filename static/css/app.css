@@ -28,8 +28,8 @@
 
 
 html {
-	background: url('../img/splatter.png') no-repeat,
-				url('../img/splatterblur.png') repeat;
+	background: url('/img/splatter.png') no-repeat,
+				url('/img/splatterblur.png') repeat;
 	background-position: 50px 20px, 20% 20%;
 }
 
@@ -65,7 +65,7 @@ h1 span:first-child {
 	border-radius: 4px;
 	color: #0c0c0c;
 	vertical-align: middle;
-	padding: 0 20px;	
+	padding: 0 20px;
 	box-shadow: 0 0 80px hsla(60,80%,60%,0.6);
 }
 
@@ -119,17 +119,14 @@ h1 span:last-child {
 }
 
 .spill1 {
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
+	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)),
 		url(../img/spilledtoys.jpg);
 }
 .spill2 {
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
+	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)),
 		url(../img/spilledraisins.jpg);
 }
 .spill3 {
-	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)), 
+	background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.2, rgba(0,0,0,0.7)), color-stop(0.5, transparent)),
 		url(../img/spilledmilk.jpg);
 }
-
-
-
